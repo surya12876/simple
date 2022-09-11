@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="/app.js"></script>
     <title>Document</title>
-</head>
-<body>
-    <p>hi</p>
-</body>
+  </head>
+  <body>
+    <!-- creating the main base div -->
+    <div class="container-div">
+      <div class="heading-div">
+        <h1 class="header">Calc</h1>
+        <h2>theme</h2>
+
+      </div>
+
+  <div class="displaydiv" display-div></div>    
+  <div class="total-keyboarddiv">
+    <div class="keyboard">
+      <button  class="btn" data-number >7</button>
+      <button class="btn" data-number>8</button>
+      <button class="btn" data-number>9</button>
+      <button class="del-btn" data-deletion>DEL</button>
+      <button class="btn" data-number>4</button>
+      <button class="btn" data-number>5</button>
+      <button class="btn" data-number>6</button>
+      <button class="btn" data-manipulate>+</button>
+      <button class="btn" data-number>1</button>
+      <button class="btn" data-number>2</button>
+      <button class="btn" data-number>3</button>
+      <button class="btn" data-manipulate>-</button>
+      <button class="btn" data-number>.</button>
+      <button class="btn" data-number>0</button>
+      <button class="btn" data-manipulate>/</button>
+      <button class="btn" data-manipulate>*</button>  
+    </div>
+    <div class="eval-buttons">
+      <button id="reset-btn" data-erase>RESET</button>
+      <button id="equal-btn" data-equals>=</button>
+    </div>
+    
+  </div>
+</div>
+    </div>
+  </body>
 </html>
